@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover our agricultural products, sustainable farming practices, projects and services.">
+  <meta name="theme-color" content="#173f2b">
+  <title>GreenHarvest Farms | Growing a Better Future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="GreenHarvest Farms home">
+        <span class="brand-mark"><i class="bi bi-flower1"></i></span>
+        <span>GreenHarvest<span class="brand-light"> Farms</span><small>GROWING A BETTER FUTURE</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button"
+              aria-label="Open navigation" aria-controls="primaryNav" aria-expanded="false">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#products">Products</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Get in touch <i class="bi bi-arrow-up-right"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light"><span></span> SUSTAINABLE AGRICULTURE · BETTER TOMORROW</p>
+        <h1>Growing today.<br><em>Feeding tomorrow.</em></h1>
+        <p class="hero-copy">We cultivate quality agricultural products through responsible farming, practical innovation and a deep respect for the land.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#products">Explore our products <i class="bi bi-arrow-right"></i></a>
+          <a class="btn btn-outline-light" href="#about">Discover our story</a>
+        </div>
+        <div class="hero-note"><i class="bi bi-check-circle-fill"></i> Rooted in the land. Focused on the future.</div>
+      </div>
+      <div class="hero-side-label">FROM OUR FARM TO YOUR TABLE</div>
+    </section>
+
+    <section class="trust-strip" aria-label="Our values">
+      <div class="container trust-grid">
+        <div><i class="bi bi-leaf"></i><span><strong>Responsible</strong><small>Farming practices</small></span></div>
+        <div><i class="bi bi-patch-check"></i><span><strong>Quality focused</strong><small>Care at every stage</small></span></div>
+        <div><i class="bi bi-globe-africa"></i><span><strong>Community minded</strong><small>Growing together</small></span></div>
+        <div><i class="bi bi-sun"></i><span><strong>Future focused</strong><small>Building resilience</small></span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="about-visual">
+          <img src="assets/images/farm.jpg" alt="Green agricultural fields under a bright sky">
+          <div class="image-caption"><span class="caption-icon"><i class="bi bi-tree"></i></span><span><strong>Farming with purpose</strong><small>People, land and progress</small></span></div>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">WHO WE ARE</p>
+          <h2>We believe agriculture can <em>change lives.</em></h2>
+          <p class="section-lead">At GreenHarvest Farms, our work is guided by a simple belief: healthy land and thoughtful farming can create lasting value for people and communities.</p>
+          <p>We focus on agricultural production, quality handling and dependable relationships. Our approach brings together practical experience, responsible resource use and a willingness to keep learning.</p>
+          <div class="about-points">
+            <div><i class="bi bi-check2-circle"></i><span><strong>Our mission</strong><small>To produce quality agricultural goods while supporting sustainable livelihoods.</small></span></div>
+            <div><i class="bi bi-compass"></i><span><strong>Our vision</strong><small>To contribute to a productive, resilient and food-secure future.</small></span></div>
+          </div>
+          <a class="text-link" href="#contact">Let's work together <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">WHAT WE GROW</p><h2>Our agricultural <em>products</em></h2></div>
+          <p>Explore a selection of products from our agricultural portfolio. Contact us to confirm current availability and specifications.</p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Filter products by category">
+          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All products</button>
+          <button class="filter-btn" type="button" data-filter="crops" aria-pressed="false">Crops</button>
+          <button class="filter-btn" type="button" data-filter="livestock" aria-pressed="false">Livestock</button>
+          <button class="filter-btn" type="button" data-filter="processed" aria-pressed="false">Processed goods</button>
+        </div>
+        <p class="filter-status" id="filterStatus" aria-live="polite">Showing all 6 products</p>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card" data-category="crops">
+            <div class="product-image"><img src="assets/images/maize.png" alt="Golden maize cobs"><span class="product-tag">Crops</span></div>
+            <div class="product-info"><h3>Maize</h3><p>A versatile staple crop for food and feed applications.</p><a href="#contact" class="card-link">Enquire about maize <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="product-card" data-category="crops">
+            <div class="product-image"><img src="assets/images/rice.jpg" alt="Fresh rice grains"><span class="product-tag">Crops</span></div>
+            <div class="product-info"><h3>Rice</h3><p>A widely enjoyed food staple, carefully handled after harvest.</p><a href="#contact" class="card-link">Enquire about rice <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="product-card" data-category="crops">
+            <div class="product-image"><img src="assets/images/casava.jpg" alt="Fresh cassava roots"><span class="product-tag">Crops</span></div>
+            <div class="product-info"><h3>Cassava</h3><p>A resilient root crop with a range of food and processing uses.</p><a href="#contact" class="card-link">Enquire about cassava <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="product-card" data-category="livestock">
+            <div class="product-image"><img src="assets/images/livestock.jpg" alt="Healthy cattle grazing"><span class="product-tag">Livestock</span></div>
+            <div class="product-info"><h3>Livestock</h3><p>Animal husbandry guided by welfare, care and good management.</p><a href="#contact" class="card-link">Livestock enquiries <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="product-card" data-category="processed">
+            <div class="product-image"><img src="assets/images/grain.jpg" alt="Packaged grain products"><span class="product-tag">Processed</span></div>
+            <div class="product-info"><h3>Grain products</h3><p>Value-added agricultural goods prepared for convenient use.</p><a href="#contact" class="card-link">Product enquiries <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="product-card" data-category="processed">
+            <div class="product-image"><img src="assets/images/farm_produce.jpg" alt="Freshly processed food ingredients"><span class="product-tag">Processed</span></div>
+            <div class="product-info"><h3>Farm produce</h3><p>Selected produce prepared and presented with quality in mind.</p><a href="#contact" class="card-link">Product enquiries <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+        </div>
+        <p class="content-note"><i class="bi bi-info-circle"></i> Product examples and photographs are illustrative. Replace them with your actual farm products and images before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="center-heading"><p class="eyebrow">HOW WE CONTRIBUTE</p><h2>Agriculture beyond <em>the field</em></h2><p>Our services can support the journey from planning and production to handling and market connection.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon"><i class="bi bi-flower2"></i></span><h3>Crop production</h3><p>Crop cultivation and farm production practices suited to local conditions.</p></article>
+          <article class="service-card"><span class="service-icon"><i class="bi bi-egg"></i></span><h3>Livestock farming</h3><p>Responsible livestock management and animal-care practices.</p></article>
+          <article class="service-card"><span class="service-icon"><i class="bi bi-box-seam"></i></span><h3>Processing & supply</h3><p>Post-harvest handling, processing and supply of agricultural products.</p></article>
+          <article class="service-card"><span class="service-icon"><i class="bi bi-mortarboard"></i></span><h3>Training & knowledge</h3><p>Practical learning and knowledge sharing for interested communities.</p></article>
+        </div>
+        <p class="content-note centered-note">Only publish services that your organisation genuinely provides.</p>
+      </div>
+    </section>
+
+    <section class="section project-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">OUR WORK IN ACTION</p><h2>Projects from <em>the ground up</em></h2></div>
+          <p>Showcase real farm activities, facilities and completed work. These sample photographs should be replaced with your own project records.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-large"><img src="assets/images/crop.png" alt="Rows of crops on a farm"><div class="project-overlay"><span>FIELD OPERATIONS</span><h3>Crop cultivation</h3></div></article>
+          <article class="project-card"><img src="assets/images/farm_dev.jpg" alt="Expansive green farmland"><div class="project-overlay"><span>LAND MANAGEMENT</span><h3>Farm development</h3></div></article>
+          <article class="project-card"><img src="assets/images/farm_produce.jpg" alt="Agricultural field work"><div class="project-overlay"><span>COMMUNITY</span><h3>Growing together</h3></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section section">
+      <div class="container impact-inner">
+        <div><p class="eyebrow light">OUR COMMITMENT</p><h2>Good farming creates<br><em>lasting impact.</em></h2><p>We aim to make thoughtful decisions that respect natural resources, strengthen communities and support dependable food systems.</p><a href="#contact" class="btn btn-light">Partner with us <i class="bi bi-arrow-right"></i></a></div>
+        <div class="impact-values">
+          <div><i class="bi bi-droplet-half"></i><strong>Resource care</strong><span>Thoughtful use of soil and water</span></div>
+          <div><i class="bi bi-people"></i><strong>Local opportunity</strong><span>Supporting skills and livelihoods</span></div>
+          <div><i class="bi bi-recycle"></i><strong>Less waste</strong><span>Encouraging responsible handling</span></div>
+          <div><i class="bi bi-seedling"></i><strong>Long-term thinking</strong><span>Planning for future generations</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial-section">
+      <div class="container testimonial-wrap">
+        <p class="eyebrow">TRUST & RELATIONSHIPS</p>
+        <i class="bi bi-quote quote-icon"></i>
+        <blockquote>“Strong agricultural communities are built through knowledge, consistency and trust.”</blockquote>
+        <p class="testimonial-note">Replace this sample statement with a genuine customer or partner testimonial, used with their permission.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a project<br>in <em>mind?</em></h2>
+          <p class="section-lead">Whether you are a buyer, farmer, partner or simply interested in our work, we would be glad to hear from you.</p>
+          <div class="contact-details">
+            <div><span class="contact-icon"><i class="bi bi-telephone"></i></span><span><small>PHONE</small><strong>+234 913 138 8402</strong></span></div>
+            <div><span class="contact-icon"><i class="bi bi-envelope"></i></span><span><small>EMAIL</small><strong>eboselefavour540@gmail.com</strong></span></div>
+            <div><span class="contact-icon"><i class="bi bi-geo-alt"></i></span><span><small>LOCATION</small><strong>Nigeria</strong></span></div>
+          </div>
+          <p class="content-note">Contact information is secure and will not be shared with third parties.</p>
+        </div>
+
+        <!-- coming from user to database to dashboard -->
+        <form class="contact-form" id="contactForm" data-endpoint="">
+          <h3>Send us a message</h3>
+          <p>Fields marked with * are required.</p>
+          <div class="form-row">
+            <div class="form-group"><label for="fullName">Your name *</label><input id="fullName" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Enter your name"><small class="field-error" id="nameError"></small></div>
+            <div class="form-group"><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"><small class="field-error" id="emailError"></small></div>
+          </div>
+          <div class="form-group"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?"></div>
+          <div class="form-group"><label for="message">Your message *</label><textarea id="message" name="message" rows="5" required minlength="10" placeholder="Write your message here..."></textarea><small class="field-error" id="messageError"></small></div>
+          <button class="btn btn-primary submit-btn" type="submit" id="submitBtn">Send enquiry <i class="bi bi-arrow-right"></i></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <small class="privacy-note">Your information is safe and reliable.</small>
+        </form>
+      </div>
+    </section>
+
+    <section class="faq-section section soft-section" id="faq">
+      <div class="container faq-layout">
+        <div><p class="eyebrow">COMMON QUESTIONS</p><h2>Good to <em>know.</em></h2><p>Some quick answers about our agricultural portfolio.</p></div>
+        <div class="faq-list">
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>How can I enquire about products?</span><i class="bi bi-plus-lg"></i></button></h3><div class="faq-answer" hidden><p>Use the contact form to tell us which product you are interested in. We will respond using the contact details you provide once the form is connected to a backend.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Do you work with agricultural partners?</span><i class="bi bi-plus-lg"></i></button></h3><div class="faq-answer" hidden><p>Use the enquiry form to describe your proposed partnership. Add your organisation's confirmed partnership policy and details here.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Where are you located?</span><i class="bi bi-plus-lg"></i></button></h3><div class="faq-answer" hidden><p>Update the contact section with your verified farm address, region and any directions visitors need.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark"><i class="bi bi-flower1"></i></span><span>GreenHarvest<span class="brand-light"> Farms</span><small>GROWING A BETTER FUTURE</small></span></a>
+      <p>Growing with purpose. Building a more sustainable agricultural future.</p>
+      <div class="social-links" aria-label="Social media"><a href="https://www.facebook.com/profile.php?id=61593103096667" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="https://www.instagram.com/burricooldevelopment.com03/" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="https://www.linkedin.com/in/matthew-lucky-588954292?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></div>
+    </div>
+    <div class="footer-bottom"><div class="container"><span>© <span id="currentYear"></span> GreenHarvest Farms. All rights reserved. <span><a href="https://www.linkedin.com/in/matthew-lucky-588954292?utm_source=share_via&utm_content=profile&utm_medium=member_android"> Created with ❤️ by MOLA TECH Company </a></span> </span><a href="#top">Back to top ↑</a></div></div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+</body>
+</html>
